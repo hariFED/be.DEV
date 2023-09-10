@@ -1,7 +1,7 @@
 
-import Header from './assets/components/Header'
-import Content from './assets/components/Content'
-import Buttons from './assets/components/Buttons'
+import Header from './components/Header'
+import Content from './components/Content'
+import Buttons from './components/Buttons'
 import './App.css'
 
 function App() {
