@@ -8,7 +8,8 @@
 }
 
 .contenttext,
-button {
+button,
+.registration-form {
   font-family: "Brice-Light";
 }
 
@@ -29,4 +30,12 @@ button {
 ::selection {
   background: black;
   color: #ffd429;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
